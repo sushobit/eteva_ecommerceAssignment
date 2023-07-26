@@ -1,0 +1,82 @@
+
+  .contact-page {
+    background: radial-gradient(circle, #e9e9ed, #007bff);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 100vh;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-item {
+    margin-bottom: 10px;
+  }
+  
+  .contact-item span {
+    font-weight: bold;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .contact-form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

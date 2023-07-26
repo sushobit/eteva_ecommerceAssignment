@@ -1,0 +1,84 @@
+
+.main-container {
+    background: radial-gradient(circle, #e9e9ed, #007bff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .second-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .head-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .head-banner h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .head-banner h3 {
+    font-size: 24px;
+    margin: 0;
+    color: rgb(195, 5, 5);
+  }
+  .head-banner p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .head-banner img {
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+  }
+  
+  .login-form {
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .login-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #00b342;
+  }
+  .signupbutton {
+    background-color: #02420b;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 10px;
+  }

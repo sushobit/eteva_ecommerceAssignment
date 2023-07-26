@@ -1,0 +1,55 @@
+.full-screen-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .full-screen-carousel-wrapper {
+        margin-top: 30px;
+        width: 100%;
+        height: 60vh;
+        overflow: hidden;
+        background-size: cover;
+      }
+}

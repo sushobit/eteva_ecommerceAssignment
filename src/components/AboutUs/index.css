@@ -1,0 +1,25 @@
+.about-us-page {
+    background: radial-gradient(circle, #e9e9ed, #007bff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .about-us-content {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .about-us-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 20px;
+  }
+  .image {
+    height: 80px;
+    width: 80px;
+  }
